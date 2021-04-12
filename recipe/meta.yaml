@@ -1,5 +1,5 @@
 {% set name = "sagemaker-mxnet-serving-container" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/aws/{{ name }}/archive/v{{ version }}.zip
-  sha256: dae4cabe2c7e2fb05fa8b3086350264be5305ee75832727c8c5e295a8d1ec4dd
+  sha256: ccacf82d591261795b78a5b4aab1d8b094f4a906a49daf8816900524e03bc145
 
 build:
   noarch: python
