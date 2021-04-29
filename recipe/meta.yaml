@@ -19,9 +19,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
     - retrying
 
 test:
@@ -30,7 +30,7 @@ test:
 
 about:
   home: https://github.com/aws/sagemaker-mxnet-containers
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
   summary: Open source library for creating MXNet containers to run on Amazon SageMaker.
