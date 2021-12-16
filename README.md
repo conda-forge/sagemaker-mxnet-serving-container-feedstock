@@ -3,7 +3,7 @@ About sagemaker-mxnet-serving-container
 
 Home: https://github.com/aws/sagemaker-mxnet-containers
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sagemaker-mxnet-serving-container-feedstock/blob/master/LICENSE.txt)
 
@@ -57,7 +57,8 @@ conda search sagemaker-mxnet-serving-container --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -118,6 +119,7 @@ Feedstock Maintainers
 =====================
 
 * [@benhuff](https://github.com/benhuff/)
+* [@mxr-conda](https://github.com/mxr-conda/)
 * [@oblute](https://github.com/oblute/)
 * [@rluria14](https://github.com/rluria14/)
 
