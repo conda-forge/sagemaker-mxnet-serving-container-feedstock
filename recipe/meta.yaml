@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - serve=sagemaker_mxnet_serving_container.serving:main
   script: {{ PYTHON }} -m pip install . -vv
@@ -19,12 +19,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - retrying
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - sagemaker_mxnet_serving_container
 
